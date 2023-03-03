@@ -9,7 +9,6 @@ from .models import User
 #         model = User
 #         fields = "__all__"
 
-#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
 
 class UserRegisterSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(required=False)
