@@ -28,7 +28,7 @@ Backend for online application for monitoring the execution of tasks
 2) Install dependencies
    - `pip install -r requirements.txt`
 3) Run docker container for postgres
-   - `docker-compose --env-file .env -f deploy/docker-compose.db.yaml up -d`
+   - `docker-compose -f deploy/docker-compose.db.yaml up -d`
 4) Make migrations
    - `cd todolist`
    - `manage.py makemigrations`
