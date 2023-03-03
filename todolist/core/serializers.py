@@ -10,6 +10,7 @@ from .models import User
 #         fields = "__all__"
 
 
+
 class UserRegisterSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(required=False)
     email = serializers.EmailField(required=True)
